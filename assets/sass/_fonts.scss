@@ -18,12 +18,19 @@
         url(fonts/Roboto/roboto-v30-latin-regular.svg#Roboto) format("svg")
             /* Legacy iOS */;
 }
-/* roboto-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: "Iosevka";
     font-style: normal;
     font-weight: 400;
     src: url(fonts/Iosevka/iosevka-regular-minimal.woff2) format("woff2")
+        /* Super Modern Browsers */;
+}
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "SourceSerifPro";
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/SourceSerifPro/SourceSerifPro-Regular.woff2) format("woff2")
         /* Super Modern Browsers */;
 }
